@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/minhasreunioesGroup">
+        <item
+            android:id="@+id/todasreunioes"
+            android:title="Todas as Reuniões" />
+        <item
+            android:id="@+id/minhasreunioes"
+            android:title="Reuniões Criadas" />
+        <item
+            android:id="@+id/reunioesingressadas"
+            android:title="Reuniões Ingressadas" />
+    </group>
+
+    <group android:id="@+id/group_sair">
+        <item
+            android:id="@+id/sair"
+            android:title="Sair" />
+    </group>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav2"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.infnet.pb.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/reuniaoShowFragment"
+        android:name="com.infnet.pb.ui.reuniaoShow.reuniaoShowFragment"
+        android:label="fragment_reuniao_show"
+        tools:layout="@layout/fragment_reuniao_show" />
+    <fragment
+        android:id="@+id/reuniaoCreateFragment"
+        android:name="com.infnet.pb.ui.reuniaoCreate.reuniaoCreateFragment"
+        android:label="fragment_reuniao_create"
+        tools:layout="@layout/fragment_reuniao_create" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.infnet.pb.ui.forgotPassword.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/participantesFragment"
+        android:name="com.infnet.pb.ui.Participantes.ParticipantesFragment"
+        android:label="fragment_participantes"
+        tools:layout="@layout/fragment_participantes" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.infnet.pb.ui.signin.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.infnet.pb.ui.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.infnet.pb.ui.signup.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+</navigation>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PBKOTLINREUNIAO</string>
+    <string name="delete_confirmation_message">Têm certeza de que deseja apagar a reunião?</string>
+    <string name="confirm_delete">Confirmar exclusão</string>
+</resources>
